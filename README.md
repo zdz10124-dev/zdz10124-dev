@@ -20,8 +20,8 @@
 
 - 南京大学苏州校区 · **智能科学与技术**本科生。
 - 信息竞赛 / 算法背景，**C++** 用得最多；洛谷长期出没。
-- 平时会写一些 **ChatGPT / Codex** 小工具，目的通常很朴素：能少重复点几下鼠标就少点几下。
-- 现在主要在做 **Godot 游戏** 和算法训练；TPC 粒子径迹可视化项目已经在高能所实习阶段完成。
+- 平时会写一些 **ChatGPT / Codex** 小工具。
+- 现在主要在做 **Godot 游戏** 和算法训练。
 
 ## 🚧 项目
 
@@ -63,6 +63,26 @@ Godot 游戏项目：切割、售卖、遗物、成长、事件、性能优化�
 持续练习 DP、图论、数论、数据结构，并把踩坑与通用套路沉淀成自己的算法知识库。
 
 [`Luogu`](https://www.luogu.com.cn/user/586915) · `C++` `Algorithms` `OI`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🗃️ Local Knowledge Base
+
+把课程、项目、踩坑记录和一些长期信息整理在本地 Obsidian 里，平时由 AI 辅助归档、检索和更新。
+
+`Obsidian` `Markdown` `Knowledge Base` `Automation`
+
+</td>
+<td width="50%" valign="top">
+
+### 🎙️ Course Notes Automation
+
+课程录音可以从手机直接导入，本地语音转文字后结合课件生成总结；作业也会自动整理，并把错题和方法归档到知识库。
+
+`Python` `ASR` `Course Notes` `Automation`
 
 </td>
 </tr>
