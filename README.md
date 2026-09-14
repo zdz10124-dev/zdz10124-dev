@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=820&height=90&lines=%24+whoami+%E2%86%92+NJU+Intelligent+Science+%26+Technology;%24+building+%E2%86%92+agents+%C2%B7+games+%C2%B7+visualization;%24+mode+%E2%86%92+learn+fast+%C2%B7+ship+often+%C2%B7+iterate" alt="Dynamic terminal profile" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=820&height=90&lines=%24+whoami+%E2%86%92+NJU+Intelligent+Science+%26+Technology;%24+current+%E2%86%92+AI+tools+%C2%B7+Godot+%C2%B7+TPC+visualization;%24+cp+%E2%86%92+C%2B%2B+%C2%B7+algorithms+%C2%B7+data+structures" alt="Dynamic terminal profile" />
 </p>
 
 ---
@@ -20,9 +20,8 @@
 
 - 南京大学苏州校区 · **智能科学与技术**本科生。
 - 信息竞赛 / 算法背景，日常使用 **C++** 做竞赛与数据结构训练。
-- 喜欢把重复工作变成自动化工具，也会做 **AI Agent / ChatGPT / Codex** 周边工具。
-- 正在持续折腾 **Godot 游戏开发、交互式可视化、粒子径迹模拟**。
-- 相比“只把东西跑起来”，我更喜欢把项目继续打磨到 **能用、好用、可复现**。
+- 会把一些重复操作写成工具，目前做过 **ChatGPT / Codex** 相关的小工具和自动化脚本。
+- 目前主要在做 **Godot 游戏、TPC 粒子径迹可视化 / 模拟**，同时继续参加算法竞赛训练。
 
 ## 🚧 最近在做
 
@@ -69,15 +68,15 @@ Godot 游戏项目：切割、售卖、遗物、成长、事件、性能优化�
 </tr>
 </table>
 
-## 🧰 技术栈
+## 🧰 常用 / 用过的工具
 
 | 方向 | 技术与工具 |
 | --- | --- |
-| 编程 | C++ · Python · JavaScript / TypeScript · GDScript · C# |
-| AI / 自动化 | ChatGPT · Codex · Agent Workflows · MCP · local tooling |
-| 游戏开发 | Godot · Unity · UI / Animation · Runtime profiling |
-| 可视化 / Web | Three.js / WebGL 思路 · Canvas · HTML / CSS · Cloudflare Tunnel |
-| 开发环境 | Git · Windows · Linux basics · CUDA / local models |
+| 算法与课程 | C++ |
+| 脚本与自动化 | Python · PowerShell |
+| 游戏开发 | Godot · GDScript |
+| Web / 可视化项目 | JavaScript · HTML / CSS |
+| 日常开发 | Git · Windows · ChatGPT / Codex |
 
 ## 📊 GitHub 数据
 
@@ -127,7 +126,3 @@ Godot 游戏项目：切割、售卖、遗物、成长、事件、性能优化�
 <p align="center"><sub>把当年的贡献记录生成一座可以下载的 3D Skyline</sub></p>
 
 ---
-
-<p align="center">
-  <strong>Build things. Break things. Learn why. Build them better.</strong>
-</p>
