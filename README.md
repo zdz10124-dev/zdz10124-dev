@@ -7,11 +7,11 @@
 <p align="center">
   <a href="https://github.com/zdz10124-dev?tab=repositories"><img src="https://img.shields.io/badge/Projects-Repositories-2088FF?style=flat-square&logo=github&logoColor=white" alt="Repositories" /></a>
   <a href="https://www.luogu.com.cn/user/586915"><img src="https://img.shields.io/badge/Luogu-zdz10124-EA2D2E?style=flat-square" alt="Luogu" /></a>
-  <a href="https://whateattoday.xyz/tpc/"><img src="https://img.shields.io/badge/Demo-TPC%20Track%20Studio-6F42C1?style=flat-square" alt="TPC Track Studio" /></a>
+  <a href="http://cepcsoft.ihep.ac.cn/tpc/"><img src="https://img.shields.io/badge/Demo-TPC%20Track%20Studio-6F42C1?style=flat-square" alt="TPC Track Studio" /></a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=820&height=90&lines=%24+whoami+%E2%86%92+NJU+Intelligent+Science+%26+Technology;%24+current+%E2%86%92+AI+tools+%C2%B7+Godot+%C2%B7+TPC+visualization;%24+cp+%E2%86%92+C%2B%2B+%C2%B7+algorithms+%C2%B7+data+structures" alt="Dynamic terminal profile" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=820&height=90&lines=%24+whoami+%E2%86%92+NJU+Intelligent+Science+%26+Technology;%24+current+%E2%86%92+Godot+%C2%B7+algorithms+%C2%B7+AI+tools;%24+cp+%E2%86%92+C%2B%2B+%C2%B7+data+structures+%C2%B7+problem+solving" alt="Dynamic terminal profile" />
 </p>
 
 ---
@@ -19,11 +19,11 @@
 ## 👋 关于我
 
 - 南京大学苏州校区 · **智能科学与技术**本科生。
-- 信息竞赛 / 算法背景，日常使用 **C++** 做竞赛与数据结构训练。
-- 会把一些重复操作写成工具，目前做过 **ChatGPT / Codex** 相关的小工具和自动化脚本。
-- 目前主要在做 **Godot 游戏、TPC 粒子径迹可视化 / 模拟**，同时继续参加算法竞赛训练。
+- 信息竞赛 / 算法背景，**C++** 用得最多；洛谷长期出没。
+- 平时会写一些 **ChatGPT / Codex** 小工具，目的通常很朴素：能少重复点几下鼠标就少点几下。
+- 现在主要在做 **Godot 游戏** 和算法训练；TPC 粒子径迹可视化项目已经在高能所实习阶段完成。
 
-## 🚧 最近在做
+## 🚧 项目
 
 <table>
 <tr>
@@ -31,9 +31,9 @@
 
 ### 🧪 TPC Track Studio
 
-面向粒子径迹的交互式可视化 / 模拟工具：二维投影、三维视图、电磁场轨迹、PAD 数据展示与 NPZ 工作流。
+高能所实习期间完成的粒子径迹可视化工具：二维投影、三维视图、探测器与物理场显示、PAD 数据展示与 NPZ 工作流。
 
-[`在线 Demo`](https://whateattoday.xyz/tpc/) · `JavaScript` `3D` `Physics` `Visualization`
+[`正式页面`](http://cepcsoft.ihep.ac.cn/tpc/) · `JavaScript` `3D` `Physics` `Visualization`
 
 </td>
 <td width="50%" valign="top">
@@ -72,9 +72,9 @@ Godot 游戏项目：切割、售卖、遗物、成长、事件、性能优化�
 
 | 方向 | 技术与工具 |
 | --- | --- |
-| 算法与课程 | C++ |
+| 算法与课程 | C++ · 数据结构 · 动态规划 · 图论 · 数论 · 概率论 |
 | 脚本与自动化 | Python · PowerShell |
-| 游戏开发 | Godot · GDScript |
+| 游戏开发 | Godot · Unity · GDScript |
 | Web / 可视化项目 | JavaScript · HTML / CSS |
 | 日常开发 | Git · Windows · ChatGPT / Codex |
 
