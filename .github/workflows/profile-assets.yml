@@ -1,0 +1,59 @@
+﻿name: Generate profile assets
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Generate 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            snake/github-contribution-grid-snake.svg
+            snake/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Generate current-year Skyline
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          gh extension install github/gh-skyline
+          mkdir -p skyline
+          gh skyline --user "$OWNER" --year "$(date -u +%Y)" --output skyline/latest.stl
+      - name: Publish generated assets
+        run: |
+          mkdir -p /tmp/profile-assets
+          cp -R profile-3d-contrib /tmp/profile-assets/
+          cp -R snake /tmp/profile-assets/
+          cp -R skyline /tmp/profile-assets/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan profile-assets
+          git rm -rf .
+          mkdir -p profile-3d-contrib snake skyline
+          cp -R /tmp/profile-assets/profile-3d-contrib/. profile-3d-contrib/
+          cp -R /tmp/profile-assets/snake/. snake/
+          cp -R /tmp/profile-assets/skyline/. skyline/
+          git add profile-3d-contrib snake skyline
+          git commit -m "ci: refresh profile assets"
+          git push --force origin profile-assets
