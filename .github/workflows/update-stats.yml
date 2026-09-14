@@ -1,6 +1,10 @@
 ﻿name: Update profile stats
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-stats.yml'
   schedule:
     - cron: "0 0 * * 1"
   workflow_dispatch:
@@ -70,3 +74,4 @@ jobs:
           git add README.md
           git commit -m "ci: refresh profile metrics"
           git push
+
