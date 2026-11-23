@@ -104,7 +104,7 @@ Godot 游戏项目：切割、售卖、遗物、成长、事件、性能优化�
 ## 📊 GitHub 数据
 
 <!-- STATS-START -->
-<p align="center"><strong>10</strong> 公开仓库 · <strong>7</strong> Public Stars · <strong>28</strong> 过去一年 Commits · <strong>7</strong> 合并 PR · <strong>3</strong> Followers</p>
+<p align="center"><strong>10</strong> 公开仓库 · <strong>7</strong> Public Stars · <strong>43</strong> 过去一年 Commits · <strong>7</strong> 合并 PR · <strong>3</strong> Followers</p>
 <p align="center"><sub>GitHub Actions 每周自动更新</sub></p>
 <!-- STATS-END -->
 
